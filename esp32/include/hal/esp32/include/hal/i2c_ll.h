@@ -704,6 +704,11 @@ static inline void i2c_ll_set_mode(i2c_dev_t *hw, i2c_bus_mode_t mode)
     hw->ctr.ms_mode = (mode == I2C_BUS_MODE_MASTER) ? 1 : 0;
 }
 
+static inline void i2c_ll_slave_init(i2c_dev_t *hw)
+{
+    i2c_ll_set_mode(hw, I2C_BUS_MODE_SLAVE);
+}
+
 /**
  * @brief Enable or disable open-drain mode for I2C pins
  *
