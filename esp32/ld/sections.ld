@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: /mnt/nosnap/idf/committed-libs/esp32-arduino-lib-builder_tf-3-2-0_20250626/build/esp-idf/esp_system/ld/sections.ld.in */
+/* Generated from: /mnt/nosnap/idf/committed-libs/esp32-arduino-lib-builder_tf-3-2-0_20250627/build/esp-idf/esp_system/ld/sections.ld.in */
 
 /*
  * SPDX-FileCopyrightText: 2021 Espressif Systems (Shanghai) CO LTD
