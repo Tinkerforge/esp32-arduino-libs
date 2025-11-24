@@ -1,5 +1,5 @@
 lib-builder: master fdfac74
-esp-idf: release/v5.5 6782bfde88
+esp-idf: release/v5.5 ba81e384ee
 arduino: tf-3-3-3 0c3844736
 tinyusb: master 6641550f5
 espressif__libsodium: 1.0.20~2

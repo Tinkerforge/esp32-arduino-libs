@@ -404,7 +404,7 @@ env.Append(
         "ESP32_ARDUINO_LIB_BUILDER",
         ("ESP_MDNS_VERSION_NUMBER", '\\"1.9.0\\"'),
         "ESP_PLATFORM",
-        ("IDF_VER", '\\"v5.5.1-429-g6782bfde88-dirty\\"'),
+        ("IDF_VER", '\\"v5.5.1-430-gba81e384ee-dirty\\"'),
         "LFS_MULTIVERSION",
         ("MBEDTLS_CONFIG_FILE", '\\"mbedtls/esp_config.h\\"'),
         ("SOC_MMU_PAGE_SIZE", 'CONFIG_MMU_PAGE_SIZE'),
