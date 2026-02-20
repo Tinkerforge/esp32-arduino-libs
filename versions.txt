@@ -1,0 +1,7 @@
+lib-builder: master 0722088
+esp-idf: c7d642a345
+arduino: tf-3-3-7 bb2c4bef5
+tinyusb: master 41a00f498
+espressif__libsodium: 1.0.20~3
+espressif__mdns: 1.9.1
+joltwallet__littlefs: 1.20.4

@@ -1,0 +1,37 @@
+dependencies:
+  espressif/libsodium:
+    dependencies:
+    - name: idf
+      version: '>=4.2'
+    source:
+      path: /mnt/nosnap/idf/committed-libs/esp32-arduino-lib-builder/managed_components/espressif__libsodium
+      type: local
+    version: 1.0.20~3
+  espressif/mdns:
+    dependencies:
+    - name: idf
+      version: '>=5.0'
+    source:
+      path: /mnt/nosnap/idf/committed-libs/esp32-arduino-lib-builder/managed_components/espressif__mdns
+      type: local
+    version: 1.9.1
+  idf:
+    source:
+      type: idf
+    version: 5.5.3
+  joltwallet/littlefs:
+    dependencies:
+    - name: idf
+      version: '>=5.0'
+    source:
+      path: /mnt/nosnap/idf/committed-libs/esp32-arduino-lib-builder/managed_components/joltwallet__littlefs
+      type: local
+    version: 1.20.4
+direct_dependencies:
+- espressif/libsodium
+- espressif/mdns
+- idf
+- joltwallet/littlefs
+manifest_hash: b17aa05ff945040e92dbabdad23405cc63397bf9780e40590dd160fbe0df93eb
+target: esp32
+version: 2.0.0
