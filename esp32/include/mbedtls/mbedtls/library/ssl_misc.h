@@ -2656,7 +2656,14 @@ static inline int mbedtls_ssl_sig_alg_is_supported(
 
 #if defined(MBEDTLS_SSL_PROTO_TLS1_2)
     if (ssl->tls_version == MBEDTLS_SSL_VERSION_TLS1_2) {
-        return mbedtls_ssl_tls12_sig_alg_is_supported(sig_alg);
+        if (mbedtls_ssl_tls12_sig_alg_is_supported(sig_alg)) {
+            return 1;
+        }
+#if defined(MBEDTLS_SSL_TLS1_3_KEY_EXCHANGE_MODE_EPHEMERAL_ENABLED)
+        return mbedtls_ssl_tls13_sig_alg_is_supported(sig_alg);
+#else
+        return 0;
+#endif
     }
 #endif /* MBEDTLS_SSL_PROTO_TLS1_2 */
 
