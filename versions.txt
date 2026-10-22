@@ -1,0 +1,7 @@
+lib-builder: master b63070e
+esp-idf: release/v5.5 a3afb692749
+arduino: tf-3-3-12 b280564c6
+tinyusb: master 04d3d6ee5
+espressif__libsodium: 1.0.22~1
+espressif__mdns: 1.14.0
+joltwallet__littlefs: 1.23.1
